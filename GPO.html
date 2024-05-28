@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Processos Organizacionais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .accordion {
+            background-color: #fff;
+            color: #4CAF50;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            text-align: left;
+            border: none;
+            outline: none;
+            transition: 0.4s;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .accordion.active, .accordion:hover {
+            background-color: #ccc;
+        }
+        .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+            border-radius: 0 0 8px 8px;
+        }
+        .panel p {
+            padding: 20px;
+            margin: 0;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gestão de Processos Organizacionais</h1>
+    </header>
+
+    <button class="accordion">Por que fazer o projeto?</button>
+    <div class="panel">
+        <p>
+            Tendo em vista os objetivos de desenvolvimento sustentável da ONU, o problema a ser resolvido faz referência aos tópicos 3.4 e 10.2. Nosso objetivo é ajudar na redução da mortalidade prematura por doenças não transmissíveis e promover a inclusão social, econômica e política de todos. 
+        </p>
+        <p>
+            A Lei Federal N° 13.146 garante igualdade de oportunidades para pessoas com deficiência, mas muitas enfrentam barreiras significativas para acessar atividades físicas. No Brasil, 18,6 milhões de pessoas têm alguma deficiência, representando uma parte significativa da população que pode se beneficiar do esporte.
+        </p>
+        <p>
+            Para enfrentar essas barreiras, nossa startup Happy Fit desenvolverá um software que fornece exercícios acessíveis para pessoas com deficiência, inicialmente focando em cadeirantes. O software personalizará planos de exercícios com base em dados individuais e incluirá suporte com vídeo e explicações detalhadas, além de uma comunidade para promover a integração social e o apoio mútuo.
+        </p>
+    </div>
+
+    <button class="accordion">Por que utilizar a metodologia ágil SCRUM?</button>
+    <div class="panel">
+        <p>
+            A metodologia ágil SCRUM é ideal para este projeto devido à sua flexibilidade e capacidade de adaptação
+            rápida às mudanças. Em um ambiente de desenvolvimento de startups, onde os requisitos podem evoluir
+            rapidamente com base no feedback dos usuários, o SCRUM permite uma abordagem iterativa e incremental.
+            Isso facilita a entrega contínua de valor, a colaboração eficaz entre equipes e o ajuste rápido das
+            prioridades conforme necessário, garantindo que o produto final atenda às necessidades reais dos usuários.
+        </p>
+        <p>
+            O ciclo de Scrum será dividido em 5 Sprints de duas semanas que começarão do dia 18/03, data da entrega do presente documento, até o dia 27/05.
+        </p>
+        <p>
+            <strong>Ambiente de gestão de código (GitHub, Azure DevOps, outros)</strong>
+        </p>
+        <p>
+            O Azure DevOps é uma plataforma de desenvolvimento de software da Microsoft que oferece uma gama de serviços para facilitar o ciclo de vida do desenvolvimento de software, desde o controle de código até a implantação e monitoramento de aplicativos. Ele integra-se perfeitamente com outras ferramentas da Microsoft, como o GitHub, e é conhecido por sua flexibilidade e capacidade de escalar para atender a projetos de todos os tamanhos.
+        </p>
+        <p>
+            A escolha do Azure DevOps como ambiente de gestão de código pode ser justificada por várias razões:
+        </p>
+        <ul>
+            <li>Integração com o GitHub: Permite que os desenvolvedores trabalhem em projetos de código aberto e colaborem com a comunidade de desenvolvedores global, facilitando o acesso a uma vasta quantidade de código e ferramentas de desenvolvimento.</li>
+            <li>Ferramentas de Controle de Versão: Oferece ferramentas avançadas de controle de versão, como o Git, essenciais para o desenvolvimento de software moderno, permitindo que as equipes trabalhem de forma eficiente, rastreando mudanças e colaborando em código.</li>
+            <li>Automatização de Pipelines: Permite a criação de pipelines de CI/CD (Integração Contínua e Entrega Contínua) automatizadas, acelerando o processo de desenvolvimento e garantindo que o código seja testado e implantado de forma eficiente.</li>
+            <li>Segurança e Permissões: Oferece um sistema robusto de segurança e gerenciamento de permissões, permitindo que as equipes trabalhem de forma segura e eficiente, com controle sobre quem tem acesso a quais recursos.</li>
+            <li>Análise de Inclusão: Através de ferramentas como o Inclusiveness Analyzer, ajuda a garantir que os produtos de software sejam inclusivos e acessíveis, alinhando-se com os princípios de acessibilidade e inclusão.</li>
+        </ul>
+        <p>
+            Em resumo, o Azure DevOps é uma escolha viável para ambientes de gestão de código devido à sua integração com o GitHub, ferramentas avançadas de controle de versão, capacidade de automatização de pipelines, segurança robusta e foco na inclusão e acessibilidade. Essas características o tornam uma plataforma poderosa para equipes de desenvolvimento que buscam eficiência, segurança e colaboração em seus projetos de software.
+        </p>
+    </div>
+
+    <button class="accordion">Por que usar o conceito de OKRs?</button>
+    <div class="panel">
+        <p>
+            O conceito de OKRs (Objectives and Key Results) é essencial para alinhar a equipe em torno de metas
+            claras e mensuráveis. Ao definir objetivos ambiciosos e resultados-chave específicos, a startup pode
+            focar nos principais resultados a serem alcançados, promovendo a transparência e o alinhamento de toda
+            a equipe. Além disso, os OKRs incentivam a medição contínua do progresso e a adaptação das estratégias
+            conforme necessário, contribuindo para um desempenho mais eficiente e direcionado ao sucesso do projeto.
+        </p>
+    </div>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+</html>
